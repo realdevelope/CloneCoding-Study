@@ -1,0 +1,20 @@
+<12/3(목)> - 처음부터 다시 공부
+
+(크롬 설정에서 다운로드위치 바꾸기 - 수업끝나고)
+
+1. 인프런 - 실무사이트 만들기 (리베하얀) - 한솔홈데코 사이트 클론코딩  
+   -translateX,Y,Z 로 위치 설정 
+   -이미지 url 뒤에 no-repeat 
+   -li:last-child / li:after
+   -transform : translateY() -> 예전엔 margin top 사용
+   - width, height, padding, margin 사용법 
+   -글씨 색깔은 px단위의 가장 진한색을 스포이드
+   -float left
+   -하나에 몰빵x 순서대로 ex) lnb에 전부 x lnb. li -> lin. li a
+   -class나 id 말고도 "lin .li a >div" 이런식으로 가능
+   -text-decoration 은 크기 조정이 불가능
+   -color : transparent
+   
+ =>전반적으로 CSS가 많이 부족하다는걸 느낌
+ ->클론코딩ㅠㅠ-------------->인강4시간 + 4시간삽질
+    잦은 오타와 전날 밤을 새서 몸상태가 메롱
