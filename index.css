@@ -352,6 +352,7 @@ header .spot li:last-child a{
 
 .magazine .slide_box .left img {
     width: 100%;
+    height: 100%;
 }
 
 .magazine .slide_box .left div {
@@ -452,6 +453,7 @@ header .spot li:last-child a{
     margin: 26px -640px 0 0;
 }
 
+
 /*--------------------notice---------------------------*/
 
 .notice{
@@ -484,17 +486,17 @@ header .spot li:last-child a{
 .notice > div .top >ul a span{
     display: block;
     position: relative;
-    top: -10px;
+    top: 10px;
     opacity: 0;
-    padding: 0 20px 0 0;
+    padding: 20px 0 0;
     font-weight:  normal;
     font-size: 14px;
-    transition: all 0.5s; 
+    transition: all 0.4s; 
   
 }
 
 .notice > div .top >ul a:hover{
-    background:  rgba(45, 91, 121, 0.4);
+    background:  rgba(45, 91, 121, 0.3);
 }
 
 .notice > div .top >ul a:hover span{
@@ -508,20 +510,20 @@ header .spot li:last-child a{
     padding: 0 20px 0 0;
 }   
 
-.notice > div .top > ul li:nth-child(1)  {
+.notice > div .top > ul li:nth-child(1) {
     background: url(./images/bg_key_link01.jpg) no-repeat;
 }
 
-.notice > div .top > ul li:nth-child(2)  {
+.notice > div .top > ul li:nth-child(2) {
     background: url(./images/bg_key_link02.jpg) no-repeat;
     
 }
 
-.notice > div .top > ul li:nth-child(2) a{
+.notice > div .top > ul li:nth-child(2) a {
     color: #000;
 }
 
-.notice > div .top > ul li:nth-child(3)  {
+.notice > div .top > ul li:nth-child(3) {
     background: url(./images/bg_key_link03.jpg) no-repeat;
 }
 
@@ -576,9 +578,13 @@ header .spot li:last-child a{
 
 .notice article > div{
     float: left;
-    position: relative;
     width: 580px;
+    position: relative;
     background: #f2f0ed;
+}
+
+.notice article > div .right{
+    float: right;
 }
 
 .notice article > div a{
@@ -612,9 +618,11 @@ header .spot li:last-child a{
 }
 
 .notice article > div .left ul li{
+    list-style: none;
     float: left;
     padding: 35px;
     width: 50%;
+    border-left: 1px solid #fff;
     box-sizing: border-box;
 }
 
@@ -664,7 +672,7 @@ header .spot li:last-child a{
      text-overflow: ellipsis;
 }
 
-.notice article > div .right p{
+.notice article > div .right p{ 
     position: absolute;
     right: 30px;
     top: 0;
@@ -731,19 +739,21 @@ footer .top{
 }
 
 footer .top > div{
-    width: 1190px;
+    width: 1180px;
     margin: 0 auto;
-    padding: 13px 0;
-}
-
-footer .top > div ul{
-    float: left;
-}
-
-footer .top > div ul li{
-    float: left;
+    /*float: left;*/  /*원장님 피드백*/
     position: relative;
-    padding: 0 19px 0 0;    
+    padding: 13px 0;    
+}
+
+footer .top div ul{
+    float: left;
+}
+
+footer .top div ul li{
+    position: relative;
+    float: left;
+    padding: 0 19px 0 0; 
 }
 
 footer .top > div ul li::after{
@@ -753,7 +763,7 @@ footer .top > div ul li::after{
     top: 50%;
     margin-top: -4px;
     width: 1px;
-    height: 8px;
+    height: 8px; 
     background:#70767a;
 }
 
@@ -807,8 +817,9 @@ footer .btm p{
     display: inline-block;
     width: 131px;
     height: 51px;
-    background: url() no-repeat -151px 0;
+    background: url(./images/sp_com.png) no-repeat -151px 0;
     color: transparent;
+    margin-bottom: 30px;
 }
 
 footer .btn ul{
@@ -837,4 +848,5 @@ footer .btm li::after{
 footer .btm address{
     font-size: 14px;
     color: #fff;
+    margin-top: 10px;
 }

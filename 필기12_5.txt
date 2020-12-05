@@ -1,0 +1,27 @@
+<12월 05일 (토)> - 처음부터 다시공부 
+
+**1주일간(4일간)한거 발표 및 모임 (QnA)
+
+1. footer 완성 및 정렬 오류 수정
+ ->왼쪽으로 쏠린거 : float : left 제거
+ ->푸터 내용 간격 넓히기 :  p, ul, li margin-bottom, margin-top으로 재설정
+ ->오타 수정 :  fotter -> footer
+
+2. article 정렬 오류 수정
+ ->
+ ->
+
+3. magazine 부분 정렬 오류 수정
+ ->html div 자동완성때문에 실수 -> 불필요한 div태그 제거
+ ->오타 수정
+ -> 이미지 사이즈 문제 조정
+
+
+
+=====> 최종 완성!!!!! (css 넘 어렵)
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+4. 알게된것 
+ -> white-space : nowrap; 
+ -> text-overflow: ellipsis;
+ 
